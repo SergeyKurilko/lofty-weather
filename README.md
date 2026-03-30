@@ -21,7 +21,10 @@ source venv/bin/activate      # Linux / macOS
 # venv\Scripts\activate      # Windows 
 ```
 
-3. **Создайте файл .env и добавьте API-ключ**
+3. **Создайте файл .env на основе примера**
+```bash
+cp .env.example .env
+```
 Откройте файл .env в любом редакторе и вставьте туда ваш API-ключ:
 ```bash
 OPEN_WEATHER_API_KEY=ваш_ключ_сюда
